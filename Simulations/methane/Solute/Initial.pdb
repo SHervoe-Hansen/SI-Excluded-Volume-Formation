@@ -1,0 +1,17 @@
+HEADER 
+TITLE     Built with Packmol                                             
+REMARK   Packmol generated pdb file 
+REMARK   Home-Page: http://m3g.iqm.unicamp.br/packmol
+REMARK
+CRYST1     1.00     1.00     1.00  90.00  90.00  90.00 P 1           1
+HETATM    1  C00 MTH     1      10.001  10.000  10.000  1.00  0.00           C  
+HETATM    2  H01 MTH     1       8.909  10.000  10.000  1.00  0.00           H  
+HETATM    3  H02 MTH     1      10.364  10.000   8.970  1.00  0.00           H  
+HETATM    4  H03 MTH     1      10.364   9.107  10.514  1.00  0.00           H  
+HETATM    5  H04 MTH     1      10.364  10.893  10.514  1.00  0.00           H  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1
+END

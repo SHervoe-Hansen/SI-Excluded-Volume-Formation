@@ -1,0 +1,27 @@
+
+tolerance 2.0
+filetype pdb
+output Initial.pdb
+
+add_box_sides 0.1
+
+structure /data/group1/z44785r/SI-Cavity-Formation/PDB_files/n-alkanes/methane.pdb
+        number 1
+        fixed 33.5 33.5 33.5 0. 0. 0.
+        centerofmass
+end structure
+
+structure /data/group1/z44785r/SI-Cavity-Formation/PDB_files/Ions/Cs.pdb
+        number 180
+        inside cube 0. 0. 0. 67.
+end structure
+        
+structure /data/group1/z44785r/SI-Cavity-Formation/PDB_files/Ions/I.pdb
+        number 180
+        inside cube 0. 0. 0. 67.
+end structure
+
+structure /data/group1/z44785r/SI-Cavity-Formation/PDB_files/spce.pdb
+        number 10000
+        inside cube 0. 0. 0. 67
+end structure

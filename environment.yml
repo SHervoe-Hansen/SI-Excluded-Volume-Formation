@@ -1,0 +1,10 @@
+name: FFGeneration
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - openmmforcefields
+  - python
+  - parmed
+  - notebook
+  - openmm

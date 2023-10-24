@@ -1,0 +1,57 @@
+{
+  "title": "Electronic Notebook: Free-Energy Decomposition of Salt Effects on the Solubilities of Small Molecules and the Role of Excluded-Volume Effects (GAFF/SPCE/Heyda et al)",
+  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "creators": [
+    {
+      "name": "Stefan Hervø-Hansen",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan",
+      "orcid": "0000-0002-9629-9195"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Daoyang Lin",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Kento Kasahara",
+      "orcid": "0000-0001-7138-250X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Nobuyuki Matubayasi",
+      "orcid": "0000-0001-7176-441X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    }
+  ],
+  "keywords": [
+    "reproducible science",
+    "electronic notebooks",
+    "chemistry",
+    "molecular dynamics",
+    "solvation",
+    "free energy calculations",
+    "energy representation theory",
+    "alcohols",
+    "alkanes"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/SHervoe-Hansen/SI-Excluded-Volume-Formation",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi"
+      "identifier": "10.5281/zenodo.8307836"
+      "relation": "isSupplementTo"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "upload_type": "software"
+}

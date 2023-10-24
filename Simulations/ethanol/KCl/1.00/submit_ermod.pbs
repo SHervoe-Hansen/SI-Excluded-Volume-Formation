@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -q L1cpu
+#PBS -N ermod
+#PBS -l select=1:ncpus=128:mpiprocs=128:ompthreads=1
+#PBS -l walltime=120:00:00
+
+source ~/.bashrc
+source ~/.bash_profile
+
+module switch PrgEnv-cray PrgEnv-intel
+module load intel-mpi/2021.7.1
+
+export ERMOD=/home/m0053/m005302/ermod-0.3.8
+export ERMOD_PLUGINS=/home/m0053/m005302/ermod-0.3.8/vmdplugins/libexec
+
+PATH=$PATH:/home/m0053/m005302/ermod-0.3.8
+export PATH
+
+cd /home/m0053/m005302/work/SI-Cavity-Formation/Simulations/ethanol/KCl/1.00
+
+# Pair-energy calculation in solution state
+cd soln
+mpiexec.hydra -np 128 ermod
+cd ..
+
+# Pair-energy calculation in reference state
+cd refs
+mpiexec.hydra -np 128 ermod
+cd ..
+
+# Calculate solvation free energy
+slvfe

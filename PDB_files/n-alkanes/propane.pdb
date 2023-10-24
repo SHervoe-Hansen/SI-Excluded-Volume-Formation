@@ -1,0 +1,26 @@
+REMARK   1 PDBFIXER FROM: propane.pdb
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-12-02
+HETATM    1  C00 PRP     1       1.000   1.000   0.000  1.00  0.00           C  
+HETATM    2  C01 PRP     1      -0.519   1.000   0.000  1.00  0.00           C  
+HETATM    3  C02 PRP     1      -1.079   1.000   1.412  1.00  0.00           C  
+HETATM    4  H03 PRP     1       1.379   1.001  -1.027  1.00  0.00           H  
+HETATM    5  H04 PRP     1       1.391   0.111   0.505  1.00  0.00           H  
+HETATM    6  H05 PRP     1       1.391   1.888   0.508  1.00  0.00           H  
+HETATM    7  H06 PRP     1      -0.883   0.117  -0.537  1.00  0.00           H  
+HETATM    8  H07 PRP     1      -0.883   1.883  -0.537  1.00  0.00           H  
+HETATM    9  H08 PRP     1      -0.751   0.112   1.963  1.00  0.00           H  
+HETATM   10  H09 PRP     1      -2.173   0.999   1.387  1.00  0.00           H  
+HETATM   11  H0A PRP     1      -0.750   1.887   1.963  1.00  0.00           H  
+TER      12      PRP     1
+CONECT    1    2    4    5    6
+CONECT    2    1    3    7    8
+CONECT    3    2    9   10   11
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    2
+CONECT    8    2
+CONECT    9    3
+CONECT   10    3
+CONECT   11    3
+END

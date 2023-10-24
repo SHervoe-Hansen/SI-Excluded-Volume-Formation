@@ -1,0 +1,14 @@
+REMARK   1 PDBFIXER FROM: methane.pdb
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-12-02
+HETATM    1  C00 MTH     1       1.000   1.000   0.000  1.00  0.00           C  
+HETATM    2  H01 MTH     1      -0.092   1.000   0.000  1.00  0.00           H  
+HETATM    3  H02 MTH     1       1.363   1.000  -1.030  1.00  0.00           H  
+HETATM    4  H03 MTH     1       1.363   0.107   0.514  1.00  0.00           H  
+HETATM    5  H04 MTH     1       1.363   1.893   0.514  1.00  0.00           H  
+TER       6      MTH     1
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1
+END

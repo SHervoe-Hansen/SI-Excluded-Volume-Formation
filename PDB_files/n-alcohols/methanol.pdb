@@ -1,0 +1,16 @@
+REMARK   1 PDBFIXER FROM: methanol.pdb
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-12-02
+HETATM    1  C00 MOH     1       1.000   1.000   0.000  1.00  0.00           C  
+HETATM    2  O01 MOH     1      -0.416   1.000   0.000  1.00  0.00           O  
+HETATM    3  H02 MOH     1       1.364   1.000  -1.030  1.00  0.00           H  
+HETATM    4  H03 MOH     1       1.364   0.115   0.527  1.00  0.00           H  
+HETATM    5  H04 MOH     1       1.354   1.899   0.510  1.00  0.00           H  
+HETATM    6  H05 MOH     1      -0.701   0.192  -0.460  1.00  0.00           H  
+TER       7      MOH     1
+CONECT    1    2    3    4    5
+CONECT    2    1    6
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1
+CONECT    6    2
+END

@@ -1,0 +1,28 @@
+REMARK   1 PDBFIXER FROM: n-propanol.pdb
+REMARK   1 CREATED WITH OPENMM 7.7, 2022-12-02
+HETATM    1  C00 PHO     1       1.000   1.000   0.000  1.00  0.00           C  
+HETATM    2  C01 PHO     1      -0.518   1.000   0.000  1.00  0.00           C  
+HETATM    3  C02 PHO     1      -1.082   1.000   1.414  1.00  0.00           C  
+HETATM    4  O03 PHO     1      -2.502   0.998   1.365  1.00  0.00           O  
+HETATM    5  H04 PHO     1       1.379   0.999  -1.027  1.00  0.00           H  
+HETATM    6  H05 PHO     1       1.391   0.112   0.507  1.00  0.00           H  
+HETATM    7  H06 PHO     1       1.391   1.889   0.505  1.00  0.00           H  
+HETATM    8  H07 PHO     1      -0.890   0.124  -0.544  1.00  0.00           H  
+HETATM    9  H08 PHO     1      -0.888   1.876  -0.546  1.00  0.00           H  
+HETATM   10  H09 PHO     1      -0.755   1.882   1.974  1.00  0.00           H  
+HETATM   11  H0A PHO     1      -0.761   0.107   1.960  1.00  0.00           H  
+HETATM   12  H0B PHO     1      -2.779   1.802   0.894  1.00  0.00           H  
+TER      13      PHO     1
+CONECT    1    2    5    6    7
+CONECT    2    1    3    8    9
+CONECT    3    2    4   10   11
+CONECT    4    3   12
+CONECT    5    1
+CONECT    6    1
+CONECT    7    1
+CONECT    8    2
+CONECT    9    2
+CONECT   10    3
+CONECT   11    3
+CONECT   12    4
+END

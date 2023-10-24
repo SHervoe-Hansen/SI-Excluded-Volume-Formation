@@ -1,0 +1,8 @@
+REMARK   1 PDBFIXER FROM: SPC.pdb
+REMARK   1 CREATED WITH OPENMM 7.7, 2023-09-30
+CRYST1   43.399   43.399   43.399 109.47 109.47 109.47 P 1           1 
+HETATM    1  OW  SOL    16      -9.424  -7.793  17.738  1.00  0.00           O  
+HETATM    2  HW1 SOL    16      -9.759  -7.115  17.303  1.00  0.00           H  
+HETATM    3  HW2 SOL    16      -8.912  -8.182  17.150  1.00  0.00           H  
+TER       5      SOL    16
+END

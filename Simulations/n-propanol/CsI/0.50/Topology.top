@@ -1,0 +1,19 @@
+
+; Include forcefield files
+#include "/data/group1/z44785r/SI-Cavity-Formation/Force_fields/ions.itp"
+#include "/data/group1/z44785r/SI-Cavity-Formation/Force_fields/spce.itp"
+#include "/data/group1/z44785r/SI-Cavity-Formation/Force_fields/n-propanol.itp"
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333
+
+[ system ]
+n-propanol in salt water
+
+[ molecules ]
+;molecule name   nr.
+PHO          1
+CS          90
+I          90
+SOL          10000

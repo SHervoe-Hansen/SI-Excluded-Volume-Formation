@@ -1,0 +1,14 @@
+
+; Include forcefield files
+#include "/home/users/eau/SI-Cavity-Formation/Force_fields/n-propanol.itp"
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333
+
+[ system ]
+n-propanol in vacuum
+
+[ molecules ]
+;molecule name   nr.
+PHO             1

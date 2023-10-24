@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mpiprocs=1:ompthreads=1:jobtype=gpu:ngpus=1
+#PBS -l walltime=4:00:00
+#PBS -N Solution
+#PBS -e run.err
+#PBS -o run.out
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /home/users/eau/SI-Cavity-Formation/Simulations/n-butanol/KI/0.50
+
+python openMM.py

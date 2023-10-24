@@ -1,0 +1,29 @@
+HEADER 
+TITLE     Built with Packmol                                             
+REMARK   Packmol generated pdb file 
+REMARK   Home-Page: http://m3g.iqm.unicamp.br/packmol
+REMARK
+CRYST1     1.00     1.00     1.00  90.00  90.00  90.00 P 1           1
+HETATM    1  C00 PRP     1      11.171  10.000   9.488  1.00  0.00           C  
+HETATM    2  C01 PRP     1       9.652  10.000   9.488  1.00  0.00           C  
+HETATM    3  C02 PRP     1       9.092  10.000  10.900  1.00  0.00           C  
+HETATM    4  H03 PRP     1      11.550  10.001   8.461  1.00  0.00           H  
+HETATM    5  H04 PRP     1      11.562   9.111   9.993  1.00  0.00           H  
+HETATM    6  H05 PRP     1      11.562  10.888   9.996  1.00  0.00           H  
+HETATM    7  H06 PRP     1       9.288   9.117   8.951  1.00  0.00           H  
+HETATM    8  H07 PRP     1       9.288  10.883   8.951  1.00  0.00           H  
+HETATM    9  H08 PRP     1       9.420   9.112  11.451  1.00  0.00           H  
+HETATM   10  H09 PRP     1       7.998   9.999  10.875  1.00  0.00           H  
+HETATM   11  H0A PRP     1       9.421  10.887  11.451  1.00  0.00           H  
+CONECT    1    2    4    5    6
+CONECT    2    1    3    7    8
+CONECT    3    2    9   10   11
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    2
+CONECT    8    2
+CONECT    9    3
+CONECT   10    3
+CONECT   11    3
+END

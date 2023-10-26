@@ -1,0 +1,143 @@
+;
+;   File Topology_stand_alone.top  was generated
+;   By user: z44785r (18493)
+;   On host:flow-cx04 
+;   At date:Sat. September  6 20:24:42 2023 
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       ipykernel_launcher.py, VERSION4.0.0 
+;   Executable:   ipykernel_launcher.py
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     /home/z44785r/miniconda3/lib/python3.10/site-packages/ipykernel_launcher.py -f /home/z44785r/.local/share/jupyter/runtime/kernel-409245e5-36f8-4d8b-9e03-998d82bb09f8.json
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333  
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+C1             6  12.010780  0.00000000  A     0.33977095      0.4510352
+O1             8  15.999430  0.00000000  A     0.32428713       0.389112
+H1             1   1.007947  0.00000000  A     0.24219973      0.0870272
+H2             1   1.007947  0.00000000  A    0.053792465      0.0196648
+Na            11  22.990000  1.00000000  A         0.2586         0.4184
+I             53 127.450000  -1.00000000  A         0.5149         0.4184
+OW_spc         8  15.999400  0.00000000  A       0.316557       0.650629
+HW_spc         1   1.008000  0.00000000  A              0              0
+
+
+[ moleculetype ]
+; Name            nrexcl
+MOH          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 MOH rtp MOH q 0.0
+    1         C1      1    MOH    C00      1 0.11670000  12.010780   ; qtot 0.116700
+    2         O1      1    MOH    O01      2 -0.59880000  15.999430   ; qtot -0.482100
+    3         H1      1    MOH    H02      3 0.02870000   1.007947   ; qtot -0.453400
+    4         H1      1    MOH    H03      4 0.02870000   1.007947   ; qtot -0.424700
+    5         H1      1    MOH    H04      5 0.02870000   1.007947   ; qtot -0.396000
+    6         H2      1    MOH    H05      6 0.39600000   1.007947   ; qtot 0.000000
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      2     1   0.14230 245517.120000
+      1      3     1   0.10970 314553.120000
+      1      4     1   0.10970 314553.120000
+      1      5     1   0.10970 314553.120000
+      2      6     1   0.09730 471536.800000
+
+[ pairs ]
+;    ai     aj funct         c0         c1         c2         c3
+      3      6     1 0.147996095 0.020684369
+      4      6     1 0.147996095 0.020684369
+      5      6     1 0.147996095 0.020684369
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      1      2      6     1   107.2600000 410.032000
+      2      1      3     1   110.2600000 523.000000
+      2      1      4     1   110.2600000 523.000000
+      2      1      5     1   110.2600000 523.000000
+      3      1      4     1   108.4600000 324.678400
+      3      1      5     1   108.4600000 324.678400
+      4      1      5     1   108.4600000 324.678400
+
+[ dihedrals ]
+;    ai     aj     ak     al funct         c0         c1         c2         c3         c4         c5
+      3      1      2      6     1  0.0000000  0.4727920  3
+      4      1      2      6     1  0.0000000  0.4727920  3
+      5      1      2      6     1  0.0000000  0.4727920  3
+
+
+[ moleculetype ]
+; Name            nrexcl
+NA          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 NA rtp NA q 1.0
+    1         Na      1     NA     Na      1 1.00000000  22.990000   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+I          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 I rtp I q -1.0
+    1          I      1      I      I      1 -1.00000000 127.450000   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+SOL          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 SOL rtp SOL q 0.0
+    1     OW_spc      1    SOL     OW      1 -0.84760000  15.999400   ; qtot -0.847600
+    2     HW_spc      1    SOL    HW1      2 0.42380000   1.008000   ; qtot -0.423800
+    3     HW_spc      1    SOL    HW2      3 0.42380000   1.008000   ; qtot 0.000000
+
+#ifdef FLEXIBLE
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      2     1   0.10000 345000.000000
+      1      3     1   0.10000 345000.000000
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      2      1      3     1   109.4700000 383.000000
+
+
+#else
+
+[ settles ]
+; i     funct   doh     dhh
+1     1   0.10000000   0.16329809
+
+#endif
+
+[ exclusions ]
+1  2  3
+2  1  3
+3  1  2
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+; Compound       #mols
+MOH                  1
+NA                 180
+I                  180
+SOL              10000

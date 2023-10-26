@@ -1,0 +1,12 @@
+Loading initial configuration and toplogy
+Creating OpenMM System
+Minimizing energy
+Equilibrating...
+Running dynamics! (NPT)
+
+PARTICLE MESH EWALD PARAMETERS
+Separation parameter: 2.1902174040653883
+Number of grid points along the X axis: 45
+Number of grid points along the Y axis: 45
+Number of grid points along the Z axis: 45
+

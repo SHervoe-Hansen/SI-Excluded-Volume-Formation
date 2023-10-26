@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -q B1accs
+#PBS -N ermod
+#PBS -l select=1:ncpus=16:mpiprocs=16:ompthreads=1
+#PBS -l walltime=2:00:00
+#PBS -e run.err
+#PBS -o run.out
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /home/users/eau/SI-Cavity-Formation/Simulations/n-hexane/KF/1.00
+
+python openMM.py

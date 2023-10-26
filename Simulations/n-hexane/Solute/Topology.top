@@ -1,0 +1,14 @@
+
+; Include forcefield files
+#include "/home/users/eau/SI-Cavity-Formation/Force_fields/n-hexane.itp"
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333
+
+[ system ]
+n-hexane in vacuum
+
+[ molecules ]
+;molecule name   nr.
+HEX             1

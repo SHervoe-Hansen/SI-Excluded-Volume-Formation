@@ -1,0 +1,15 @@
+
+&fevars
+clcond    = "merge",       ! Calculation type, "merge" / "basic" / "range"
+numsln    = 10, ! Number of trajectory blocks in solution system
+numref    = 5, ! Number of trajectory blocks in reference system
+numdiv    = 10, ! Number of division for statistics, usually set equal to numsln
+avevolume = 318913.65897757036,        ! Average volume sampled in simulation (in Angstrom^3)
+
+ljlrc     = 'yes',         ! Long-range correction of the Lennard-Jones interaction (avevolume must be specified)
+uvread    = "yes",         ! "not" if average solute-solvent energy is calculated from engsln, instead of aveuv.tt
+slfslt    = "yes",         ! "not" if the solute self energy is not read
+infchk    = "yes",         ! Enable error analysis for the logarithmic-mesh part
+inptemp   = 298.15,        ! Input Temperature in Kelvin
+cumuint   = 'yes',         ! Enable running integral calculations.
+/

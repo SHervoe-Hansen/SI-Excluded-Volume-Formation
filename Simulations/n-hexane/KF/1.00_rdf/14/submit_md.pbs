@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q B1accs
+#PBS -N MD_RDF
+#PBS -l select=1:ncpus=16:mpiprocs=16:ompthreads=1
+#PBS -l walltime=2:00:00
+#PBS -e run.err
+#PBS -o run.out
+
+source ~/.bashrc
+source ~/.bash_profile
+
+module load nvhpc-nompi/22.2_cuda11.6
+
+cd /home/m0053/m005302/work/SI-Cavity-Formation/Simulations/n-hexane/KF/1.00_rdf/14
+
+python openMM.py

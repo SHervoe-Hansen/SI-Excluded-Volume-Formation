@@ -1,0 +1,14 @@
+
+; Include forcefield files
+#include "/home/users/eau/SI-Cavity-Formation/Force_fields/methanol.itp"
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333
+
+[ system ]
+methanol in vacuum
+
+[ molecules ]
+;molecule name   nr.
+MOH             1

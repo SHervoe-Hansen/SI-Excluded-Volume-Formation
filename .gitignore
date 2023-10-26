@@ -8,8 +8,6 @@ molecularvolume/*
 md/*
 run.sh
 ermod.sh
-cumsfe*
-!cumsfe
 *.sh.e*
 *.sh.o*
 test

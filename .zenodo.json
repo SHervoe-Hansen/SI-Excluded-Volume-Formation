@@ -48,6 +48,7 @@
       "scheme": "doi",
       "identifier": "10.5281/zenodo.8307836",
       "relation": "isSupplementTo"
+    }
   ],
   "license": {
     "id": "cc-by-4.0"

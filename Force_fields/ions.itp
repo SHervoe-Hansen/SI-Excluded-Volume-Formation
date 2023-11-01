@@ -2,7 +2,7 @@
 ; name    at.num  mass     charge ptype  sigma [nm] epsilon [kJ/mol]
 Na    11      22.99     1.000    A    0.2586      0.4184    ; Heyda J. Phys. Chem. B, Vol. 114, No. 2, 2010
 K     19      39.10     1.000    A    0.3334      0.4184    ; Heyda J. Phys. Chem. B, Vol. 114, No. 2, 2010
-Cs    55     132.91     1.000    A    0.3800      0.4200
+Cs    55     132.91     1.000    A    0.3800      0.4200    ; Dang J. Phys. Chem. B, Vol 103, No. 39, 1999
 F      9      19.00    -1.000    A    0.3143      0.6999    ; Joe's F- J. Chem. Phys. 130, 134507 2009
 Cl    17      35.45    -1.000    A    0.4401      0.4184    ; J. Phys. Chem. B, Vol. 114, No. 2, 2010
 Br    35      79.91    -1.000    A    0.4538      0.4184    ; J. Phys. Chem. B, Vol. 114, No. 2, 2010

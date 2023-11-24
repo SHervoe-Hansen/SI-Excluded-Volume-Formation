@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8307837.svg)](https://doi.org/10.5281/zenodo.8307837)
 
-# Electronic Notebook: Free-Energy Decomposition of Salt Effects on the Solubilities of Small Molecules and the Role of Excluded-Volume Effects (GAFF/SPCE/Heyda _et al_)
+# Electronic notebook: Free-energy decomposition of salt effects on the solubilities of small molecules and the role of excluded-volume effects (GAFF/SPCE/Heyda)
 
 This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (_Chem. Sci._, 2023, doi: [10.1039/D3SC04617F](https://doi.org/10.1039/D3SC04617F)) on the solvation free energy of alcohols and alkanes in various electrolyte solutions using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). For running the simulation we recommend you clone the repository.
 

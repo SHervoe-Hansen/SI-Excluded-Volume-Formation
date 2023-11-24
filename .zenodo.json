@@ -1,5 +1,5 @@
 {
-  "title": "Electronic notebook: Free-energy decomposition of salt effects on the solubilities of small molecules and the role of excluded-volume effects (GAFF/SPCE/Heyda)",
+  "title": "Electronic notebook: Free-energy decomposition of salt effects on the solubilities of small molecules and the role of excluded-volume effects (GAFF/SPCE/Heyda force field)",
   "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
   "creators": [
     {

@@ -48,6 +48,11 @@
       "scheme": "doi",
       "identifier": "10.5281/zenodo.8307836",
       "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1039/D3SC04617F",
+      "relation": "isSupplementTo"
     }
   ],
   "license": {
